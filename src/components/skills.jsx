@@ -1,16 +1,16 @@
 import { useState } from "react";
-import MySkills from "../components/Molecules/MySkills";
+import MySkills from "./Atoms/MySkills";
 
 const Skills = () => {
-  const [haveCompetences, setHaveCompetences] = useState(false);
+  const [skills, setSkills] = useState(false);
 
   return (
     <div
       className="Skills"
-      onClick={() => setHaveCompetences(!haveCompetences)}
+      onClick={() => setSkills(!skills)}
     >
-      <p>mes compétences</p>
-      {haveCompetences ? "savoir développer" : null}
+        <h2>mes compétences</h2>
+        {skills? MySkills() : null}
     </div>
   );
 };
