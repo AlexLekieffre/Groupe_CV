@@ -1,5 +1,5 @@
 import Team from "../components/Molecules/team";
-import Skills from "../components/skills";
+import Skills from "../components/Molecules/skills";
 
 // le dossier Molecules que vous avez créer est en Majuscule donc , il faut le mettre en maj pour l'importer
 //import Skills from "../components/Molecules/expérience/";
