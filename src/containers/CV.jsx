@@ -10,7 +10,6 @@ const CV = () => {
     <div class="navBar">
      
       <Skills />
-      <Team></Team>
     </div>
   );
 };

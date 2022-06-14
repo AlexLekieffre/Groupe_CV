@@ -1,5 +1,6 @@
 
 import './App.css';
+import Team from './components/Molecules/team';
 import CV from './containers/CV';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       
       <CV >{/* ici placer une nav avec les différent onglet */}</CV>
+      <Team ></Team>
 
     </div>
   );
