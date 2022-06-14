@@ -11,6 +11,7 @@ const Team = () => {
     experience3 : "Electrotechniciens"
     
 })
+
 console.log(teamMemberAlex);
   return (
     <div className="team">
