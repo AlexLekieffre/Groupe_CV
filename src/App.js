@@ -1,5 +1,5 @@
 import "./App.css";
-import Team from "./components/Molecules/team";
+import Team from "./components/molecules/team";
 import CV from "./containers/CV";
 
 function App() {

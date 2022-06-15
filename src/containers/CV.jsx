@@ -15,19 +15,19 @@ const CV = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about"> Expérience</Link>
+              <Link to="/About"> Expérience</Link>
             </li>
             <li>
-              <Link to="/users">Compétence</Link>
+              <Link to="/Users">Compétence</Link>
             </li>
           </ul>
         </nav>
         renders the first one that matches the current URL. */}
         <Routes>
-          <Route path="/about">
+          <Route path="/About">
             <About />
           </Route>
-          <Route path="/users">
+          <Route path="/Users">
             <Users />
           </Route>
           <Route path="/">
