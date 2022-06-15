@@ -1,53 +1,27 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import Experience from "../components/molecules/experience";
+import Navbar from "../components/molecules/navbar";
+import PrivatRoute from "../components/molecules/privateroute";
+import NotLogged from "../components/molecules/privateroute";
+import Skills from "../components/molecules/skills";
 
-// le dossier Molecules que vous avez créer est en Majuscule donc , il faut le mettre en maj pour l'importer
-//import Skills from "../components/Molecules/expérience/";
-//import UserProfile from "../components/Molecules/userProfil";
+const logg = false;
 
 const CV = () => {
   return (
-    <Router>
-      <div class="navBar">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/About"> Expérience</Link>
-            </li>
-            <li>
-              <Link to="/Users">Compétence</Link>
-            </li>
-          </ul>
-        </nav>
-        renders the first one that matches the current URL. */}
-        <Routes>
-          <Route path="/About">
-            <About />
-          </Route>
-          <Route path="/Users">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Routes>
-      </div>
-    </Router>
+    <BrowserRouter>
+      <Navbar></Navbar>
+
+      <Routes>
+        <Route index element={"ok"} />
+        <Route path="/experience" element={<Experience />}></Route>
+        <Route path="" element={<PrivatRoute />}>
+          <Route path="/skills" element={<Skills />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
 
 export default CV;
