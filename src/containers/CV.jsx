@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
-import Experience from "../components/molecules/experience";
-import Navbar from "../components/molecules/navbar";
-import PrivatRoute from "../components/molecules/privateroute";
-import NotLogged from "../components/molecules/privateroute";
-import Skills from "../components/molecules/skills";
+import Contact from "../components/Molecules/contact";
+import Experience from "../components/Molecules/experience";
+import Navbar from "../components/Molecules/navbar";
+import PrivatRoute from "../components/Molecules/privateroute";
+import NotLogged from "../components/Molecules/privateroute";
+import Skills from "../components/Molecules/skills";
 
 const logg = false;
 
@@ -16,6 +17,7 @@ const CV = () => {
       <Routes>
         <Route index element={"ok"} />
         <Route path="/experience" element={<Experience />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
         <Route path="" element={<PrivatRoute />}>
           <Route path="/skills" element={<Skills />} />
         </Route>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MySkills from "../atoms/MySkills";
+import MySkills from "../Atoms/MySkills";
 
 const Skills = () => {
   const [skills, setSkills] = useState(false);
