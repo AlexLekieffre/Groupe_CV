@@ -9,9 +9,16 @@ const Experience = () => {
       <hr />
 
       <p>
-        ➪ 2 ans chez Mcdo <br />
-        ➪ 8 ans à la Nasa en tant qu'astronaute remplacant <br />
-        ➪ 3 ans Web Dev sur le dark web <br />
+        <h4> ➪ 2 ans chez Mcdo </h4>
+        En quête d'inspiration, j'ai travaillé pour une grande entreprise avant
+        de trouver ma voie.
+        <br />
+        <h4> ➪ 3 ans Web Dev sur le dark web </h4>
+        En quête de sensation, j'ai commencé à coder avec Abhishek et
+        Ramakrishna avant de trouver une formation. <br />
+        <h4> ➪ 8 ans à la Nasa en tant qu'astronaute remplacant </h4>
+        En quête de reconnaissance, j'ai chercher à entrer dans la zone 51 ...
+        Sans succés.
       </p>
 
       {/* <ul>
