@@ -11,7 +11,6 @@ const Experience = () => {
       <hr />
 
       <p>
-<<<<<<< HEAD
         <h4>  <FaGhost /> 2 ans chez Mcdo </h4>
         En quête d'inspiration, j'ai travaillé pour une grande entreprise avant
         de trouver ma voie.
@@ -22,7 +21,7 @@ const Experience = () => {
         <h4> <FaEmpire /> 8 ans à la Nasa en tant qu'astronaute remplacant </h4>
         En quête de reconnaissance, j'ai chercher à entrer dans la zone 51 ...
         Sans succés.
-=======
+        </p>
 
 
       {/* <ul>
