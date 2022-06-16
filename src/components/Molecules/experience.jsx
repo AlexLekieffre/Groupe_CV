@@ -1,3 +1,5 @@
+import {FaGhost, FaSpaceShuttle, FaEmpire} from 'react-icons/fa'
+
 const Experience = () => {
   return (
     <div className="experience">
@@ -9,9 +11,9 @@ const Experience = () => {
       <hr />
 
       <p>
-        ➪ 2 ans chez Mcdo <br />
-        ➪ 8 ans à la Nasa en tant qu'astronaute remplacant <br />
-        ➪ 3 ans Web Dev sur le dark web <br />
+        <FaGhost /> 2 ans chez Mcdo <br />
+        <FaSpaceShuttle /> 8 ans à la Nasa en tant qu'astronaute remplacant <br />
+        <FaEmpire /> 3 ans Web Dev sur le dark web <br />
       </p>
 
       {/* <ul>
