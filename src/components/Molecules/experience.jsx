@@ -2,7 +2,7 @@ const Experience = () => {
   return (
     <div className="experience">
       <div>
-        <img src="/src/img/banner.png" alt="" />
+        <img src="src\img\banner.png" alt="banner" className="vh-100" />
       </div>
 
       <h1>Mes Expériences </h1>
