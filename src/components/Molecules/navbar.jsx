@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -6,21 +6,35 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link id="Link" to="/">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/experience"> Expérience</Link>
+            <Link id="Link" to="/experience">
+              {' '}
+              Expériences
+            </Link>
           </li>
           <li>
-            <Link to="/skills">Compétence</Link>
+            <Link id="Link" to="/skills">
+              Compétences
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contactez-Nous</Link>
+            <Link id="Link" to="/contact">
+              Contactez-Nous
+            </Link>
+          </li>
+          <li>
+            <Link id="Link" to="/team">
+              L'équipe
+            </Link>
           </li>
         </ul>
       </nav>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

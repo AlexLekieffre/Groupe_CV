@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-nav {
+/* nav {
   background-color: rgba(112, 109, 109, 0.633);
   height: 40px;
 }
@@ -27,4 +27,4 @@ ul li {
   color: white;
   margin: auto;
   padding: auto;
-}
+} */

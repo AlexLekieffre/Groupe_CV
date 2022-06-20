@@ -55,3 +55,75 @@ li {
         transform: rotate(360deg);
     }
 }
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    color:  rgb(47, 5, 137);
+    margin-top: 20px;
+}
+
+
+h4 {
+    font-family: fantasy;
+    margin-left: 60px;
+    color:  rgb(47, 5, 137);
+}
+
+#contactCard {
+
+    background-color: rgb(244, 236, 225);
+    border: solid rgb(47, 5, 137);
+    box-shadow: 10px 5px 5px rgb(47, 5, 137);
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: auto;
+    padding: auto;
+    background-image: url(../src/img/banner.png);
+    height: 200px;
+    width: 100%;
+    
+    background-color: rgb(244, 236, 225);
+    box-shadow: 0 0 4px 4px rgba(9, 9, 9, 0.23);
+  }
+
+  .navBar li {
+    float : left; 
+    width : 100%;
+	/* display: flex;
+    justify-content: space-evenly;
+	padding: 8px 15px; */
+  }
+
+  #Link {
+    color: rgb(244, 236, 225);
+    font-family: fantasy;
+    font-size: 26px;
+    text-decoration: none;
+  }
+
+  .mySkills {
+    background-color: rgb(244, 236, 225);
+    border: solid rgb(47, 5, 137);
+    box-shadow: 10px 5px 5px rgb(47, 5, 137);
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto; */
+  }

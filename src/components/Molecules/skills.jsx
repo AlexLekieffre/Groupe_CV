@@ -1,18 +1,16 @@
-import { useState } from "react";
-import MySkills from "../Atoms/MySkills";
+import { useState } from 'react'
+import MySkills from '../Atoms/MySkills'
 
 const Skills = () => {
-  const [skills, setSkills] = useState(false);
+  const [skills, setSkills] = useState(true)
 
   return (
-    <div
-      className="Skills"
-      onClick={() => setSkills(!skills)}
-    >
-        <h2>mes compétences</h2>
-        {skills? MySkills() : null}
+    <div className="Skills">
+      <h1>Mes compétences</h1>
+      <hr />
+      {skills ? MySkills() : null}
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills
