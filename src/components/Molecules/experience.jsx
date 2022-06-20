@@ -11,7 +11,6 @@ const Experience = () => {
       <hr />
 
       <p>
-<<<<<<< HEAD
         <h4>  <FaGhost /> 2 ans chez Mcdo </h4>
         En quête d'inspiration, j'ai travaillé pour une grande entreprise avant
         de trouver ma voie.
